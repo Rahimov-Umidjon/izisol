@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+ 
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -7,9 +8,9 @@
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-foreground: var(--foreground); 
   --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-space-grotesk), sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +22,57 @@
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--foreground); 
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(4deg);
+  }
+
+  75% {
+    transform: rotate(-2deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+.plus-icon {
+  animation: spinBack 0.8s ease-in-out forwards;
+}
+
+.group:hover .plus-icon {
+  animation: spinForward 0.8s ease-in-out forwards;
+}
+
+@keyframes spinForward {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(1080deg);
+  }
+}
+
+@keyframes spinBack {
+  from {
+    transform: rotate(1080deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
 }

@@ -1,0 +1,281 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Grow your business with modern IT solutions",
+    "description": "We help launch, scale, and take your business to the next level through websites, mobile apps, AI automation, and cloud solutions.",
+    "ctaServices": "Our Services",
+    "pricing": "Pricing",
+    "socialProof": "Trusted by 50+ companies"
+  },
+  "Services": {
+    "offerLabel": "What we offer",
+    "ctaLabel": "Contact us",
+    "items": {
+      "mobile": {
+        "badgeLabel": "Mobile Development",
+        "title": "Mobile App Development",
+        "description": "We build fast, secure, and modern mobile apps for Android and iOS. We develop solutions tailored to your user experience and business goals.",
+        "tags": [
+          "Android Apps",
+          "iOS Apps",
+          "Cross-platform (React Native)",
+          "UI/UX Integration",
+          "API Integration",
+          "Technical Support"
+        ],
+        "testimonial": {
+          "quote": "The team turned our idea into a modern, fast mobile app.",
+          "name": "Aziz Karimov",
+          "role": "Founder"
+        }
+      },
+      "web": {
+        "badgeLabel": "Web Development",
+        "title": "Website & Platform Development",
+        "description": "We build modern web solutions — from landing pages to CRM, ERP, and corporate platforms — using Frontend and Backend technologies.",
+        "tags": [
+          "Landing Page",
+          "Frontend Development",
+          "Backend Development",
+          "Admin Panel (CMS)",
+          "API Development",
+          "Technical Support"
+        ],
+        "testimonial": {
+          "quote": "The speed and design of our new platform were highly praised by our clients.",
+          "name": "Jasur Tursunov",
+          "role": "CEO"
+        }
+      },
+      "telegram": {
+        "badgeLabel": "Telegram Bot",
+        "title": "Telegram Bot Development",
+        "description": "We build Telegram bots to automate business processes, handle orders, and provide fast customer service.",
+        "tags": [
+          "Order Bots",
+          "CRM Integration",
+          "Payment Systems",
+          "Admin Panel",
+          "AI Integration",
+          "Automated Notifications"
+        ],
+        "testimonial": {
+          "quote": "Our Telegram bot significantly sped up our customer service process.",
+          "name": "Muhammad Ali",
+          "role": "Business Owner"
+        }
+      },
+      "seo": {
+        "badgeLabel": "SEO Optimization",
+        "title": "SEO Optimization",
+        "description": "We help boost your website's ranking on Google, increase organic traffic, and attract new customers.",
+        "tags": [
+          "SEO Audit",
+          "Keyword Research",
+          "On-page SEO",
+          "Technical SEO",
+          "Content Optimization",
+          "Monitoring & Reporting"
+        ],
+        "testimonial": {
+          "quote": "Thanks to the SEO work, organic traffic and inquiries increased significantly.",
+          "name": "Dilshod Rahimov",
+          "role": "Marketing Manager"
+        }
+      }
+    }
+  },
+  "NextSection": {
+    "text": "Every successful business starts with powerful technology solutions."
+  },
+  "SecondSection": {
+    "heading1": "Working with us transforms your",
+    "headingHighlight": "business",
+    "heading2": "how does it work?",
+    "before": {
+      "label": "Before",
+      "title": "Is outdated technology holding your business back?",
+      "items": [
+        "Excess manual work.",
+        "Low efficiency and wasted time.",
+        "Lack of modern digital solutions.",
+        "Forced to chase after competitors."
+      ]
+    },
+    "after": {
+      "label": "After",
+      "title": "IT solutions built for the future",
+      "items": [
+        "Web and mobile apps tailored to your business.",
+        "AI-powered automation.",
+        "Strong security and cloud infrastructure.",
+        "More customers through SEO and Telegram bots."
+      ]
+    }
+  },
+  "ProcessSection": {
+    "headingBold": "Many companies",
+    "headingLight": "complicate projects with unnecessary processes.",
+    "subtext": "We simplify every stage, turning your idea into a reliable, high-quality digital product in a short amount of time.",
+    "stepLabel": "Step",
+    "phases": [
+      {
+        "label": "Analysis",
+        "title": "Requirements Analysis and Planning",
+        "description": "Every project begins with a deep understanding of your business. By analyzing your goals, user needs, and technical requirements, we develop a clear roadmap and project plan.",
+        "images": "/Requriment-Analysis.png"
+      },
+      {
+        "label": "Design",
+        "title": "UI/UX Design and Prototyping",
+        "description": "We create a user-friendly, modern, and aesthetic interface. Once the design and interactive prototype are ready and all details are agreed upon with you, we move on to the development stage.",
+        "images": "/uiux.png"
+      },
+      {
+        "label": "Development",
+        "title": "Development and Quality Assurance",
+        "description": "Based on the approved design, the project is built using modern technologies. Each module is tested for functionality, security, speed, and stability to ensure high quality.",
+        "images": "/code.png"
+      },
+      {
+        "label": "Launch",
+        "title": "Launch and Support",
+        "description": "Once the project is successfully launched, we continuously support the stable operation of your product through technical assistance, system monitoring, updates, and the introduction of new features.",
+        "images": "/support.jpg"
+      }
+    ]
+  },
+  "TeamSection": {
+    "heading": "Meet our",
+    "headingHighlight": "professional team.",
+    "aboutHeading": "About Us",
+    "aboutText": "We are an IT company specializing in developing modern websites, mobile apps, and software solutions that automate business processes. We take an individual approach to every project, deeply analyzing our clients' goals and needs. Our main goal is to create fast, secure, and high-quality digital products that drive your business forward.",
+    "joinButton": "Join us",
+    "emailLabel": "Email",
+    "members": [
+      {
+        "id": 1,
+        "name": "Anarqulov Farxod",
+        "role": "Chief Technology Officer",
+        "bio": "Chief Technology Officer (CTO). Responsible for defining the company's technology development strategy, managing software projects, and coordinating the technical team's activities. Has deep expertise in modern technologies, system architecture, and software development processes. Ensures projects are delivered with quality, security, and on schedule, contributing to the company's technological growth through innovative solutions.",
+        "email": "info@izisol.uz"
+      },
+      {
+        "id": 2,
+        "name": "Mirzoyev Shaxzod",
+        "role": "DevOps",
+        "bio": "DevOps Engineer. Specializes in automating and optimizing software development and operations processes. Experienced in working with Docker, Kubernetes, CI/CD, Linux, Nginx, and cloud infrastructure. Supports the fast and reliable launch of software products by ensuring the stability, security, and high performance of systems.",
+        "email": "info@izisol.uz"
+      },
+      {
+        "id": 3,
+        "name": "Yangiboyev Sardor",
+        "role": "System Administrator",
+        "bio": "System Administrator. Specializes in managing and maintaining servers, networks, and IT infrastructure. Experienced in Linux and Windows servers, virtualization, security, backups, monitoring, and system optimization. Consistently focused on ensuring systems run continuously, securely, and reliably.",
+        "email": "info@izisol.uz"
+      },
+      {
+        "id": 4,
+        "name": "Rahimov Umijon",
+        "role": "Web and Mobile Developer",
+        "bio": "Web and Mobile Developer. Specializes in building modern web and mobile applications using Node.js, NestJS, Next.js, React, and React Native (Expo, Expo Router). Focuses on scalable architecture, high performance, and a smooth user experience in every project. Builds reliable and efficient digital solutions based on modern technologies and clean code principles.",
+        "email": "info@izisol.uz"
+      },
+      {
+        "id": 5,
+        "name": "Ro'ziyev Sanjar",
+        "role": "Fullstack Developer",
+        "bio": "Core technologies: Laravel, PHP, MySQL, PostgreSQL, Redis, Docker, HTML, CSS, and REST API. Experienced in developing Telegram bots, CRM systems, and web applications in the logistics sector. Focused on clean code, backend architecture, and quickly mastering new technologies.",
+        "email": "info@izisol.uz"
+      },
+      {
+        "id": 6,
+        "name": "Abdukabir Qurbanaliyev",
+        "role": "Fullstack Developer",
+        "bio": "Full-Stack Developer specializing in PHP and Laravel technologies. Focuses on developing modern, secure, and high-performance web applications, REST APIs, CRM systems, and admin dashboards. Pays special attention to writing clean code, creating optimized solutions, and improving user experience in projects.",
+        "email": "info@izisol.uz"
+      }
+    ]
+  },
+  "PaceSection": {
+    "headingBold": "Why do they",
+    "headingLight": "choose us?",
+    "features": [
+      {
+        "label": "Fast development",
+        "description": "Every project follows a carefully planned workflow. Using modern technologies and effective management methods, we strictly adhere to deadlines. Our goal is to launch your product as fast as possible without compromising quality."
+      },
+      {
+        "label": "Quality & security",
+        "description": "Every software product we build is thoroughly tested for functionality, performance, and security. Code quality, system stability, and user data protection are among our top priorities."
+      },
+      {
+        "label": "Long-term partnership",
+        "description": "For us, project delivery isn't the end of a partnership — it's the start of a new stage. We support the ongoing growth of your product through technical support, regular updates, new feature rollouts, and fast issue resolution."
+      }
+    ]
+  },
+  "StatsSection": {
+    "stats": [
+      {
+        "value": "232",
+        "suffix": "",
+        "description": "Clients"
+      },
+      {
+        "value": "521",
+        "suffix": "",
+        "description": "Projects"
+      },
+      {
+        "value": "1453",
+        "suffix": "",
+        "description": "Support hours"
+      },
+      {
+        "value": "10",
+        "suffix": "",
+        "description": "Employees"
+      }
+    ]
+  },
+  "Footer": {
+    "newsletterHeading": "Subscribe to",
+    "newsletterHeadingLine2": "our newsletter.",
+    "emailPlaceholder": "Email",
+    "subscribeButton": "Subscribe",
+    "followUs": "Follow us",
+    "navigation": "Navigation",
+    "navLinks": [
+      "Home",
+      "Services",
+      "About Us"
+    ],
+    "phone": "+99894 744 14 15",
+    "email": "info@izisol.uz",
+    "address": "5th floor, Entrance E, Botir Zakirov street 1 A/1, Tashkent"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "No unnecessary presentations or pressure. Tell us briefly about your project, and we'll show you how we can help.",
+    "name": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "email": "Email",
+    "emailPlaceholder": "name@company.com",
+    "services": "Which services are you interested in?",
+    "mobileDevelopment": "Mobile Development",
+    "webDevelopment": "Web Development",
+    "telegramBot": "Telegram Bot",
+    "seo": "SEO Optimization",
+    "message": "Tell us about your project or requirements",
+    "messagePlaceholder": "Briefly describe your project...",
+    "agreement": "By submitting your application, you agree to our Terms of Service and Privacy Policy.",
+    "response": "After receiving your request, we will contact you within 24 hours.",
+    "send": "Send Request"
+  }
+}

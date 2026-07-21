@@ -1,0 +1,281 @@
+{
+  "Navbar": {
+    "home": "Bosh sahifa",
+    "services": "Xizmatlar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa"
+  },
+  "Hero": {
+    "title": "Zamonaviy IT-yechimlar bilan biznesingizni rivojlantiring",
+    "description": "Veb-saytlar, mobil ilovalar, AI avtomatlashtirish va bulutli yechimlar orqali biznesingizni ishga tushirish, kengaytirish va yangi bosqichga olib chiqishga yordam beramiz.",
+    "ctaServices": "Bizning xizmatlar",
+    "pricing": "Narxlar",
+    "socialProof": "50+ kompaniya bizga ishonadi"
+  },
+  "Services": {
+    "offerLabel": "Biz nimalarni taklif qilamiz",
+    "ctaLabel": "Bog'lanish",
+    "items": {
+      "mobile": {
+        "badgeLabel": "Mobile dasturlash",
+        "title": "Mobil ilovalarni ishlab chiqish",
+        "description": "Android va iOS uchun tezkor, xavfsiz hamda zamonaviy mobil ilovalarni yaratamiz. Foydalanuvchi tajribasi va biznes maqsadlaringizga mos yechimlarni ishlab chiqamiz.",
+        "tags": [
+          "Android ilovalar",
+          "iOS ilovalar",
+          "Cross-platform (React Native)",
+          "UI/UX integratsiyasi",
+          "API integratsiyasi",
+          "Texnik qo'llab-quvvatlash"
+        ],
+        "testimonial": {
+          "quote": "Jamoa bizning g'oyamizni zamonaviy va tezkor mobil ilovaga aylantirdi.",
+          "name": "Aziz Karimov",
+          "role": "Founder"
+        }
+      },
+      "web": {
+        "badgeLabel": "Veb dasturlash",
+        "title": "Web sayt va platformalarni ishlab chiqish",
+        "description": "Landing Page'lardan tortib CRM, ERP va korporativ platformalargacha bo'lgan zamonaviy veb-yechimlarni Frontend va Backend texnologiyalari yordamida ishlab chiqamiz.",
+        "tags": [
+          "Landing Page",
+          "Frontend Development",
+          "Backend Development",
+          "Admin Panel (CMS)",
+          "API yaratish",
+          "Texnik qo'llab-quvvatlash"
+        ],
+        "testimonial": {
+          "quote": "Yangi platformamiz tezkorligi va dizayni mijozlarimiz tomonidan yuqori baholandi.",
+          "name": "Jasur Tursunov",
+          "role": "CEO"
+        }
+      },
+      "telegram": {
+        "badgeLabel": "Telegram Bot",
+        "title": "Telegram bot ishlab chiqish",
+        "description": "Biznes jarayonlarini avtomatlashtirish, buyurtmalarni qabul qilish va mijozlarga tezkor xizmat ko'rsatish uchun Telegram botlarni ishlab chiqamiz.",
+        "tags": [
+          "Buyurtma botlari",
+          "CRM integratsiyasi",
+          "To'lov tizimlari",
+          "Admin Panel",
+          "AI integratsiyasi",
+          "Avtomatik xabarnomalar"
+        ],
+        "testimonial": {
+          "quote": "Telegram botimiz mijozlarga xizmat ko'rsatish jarayonini sezilarli darajada tezlashtirdi.",
+          "name": "Muhammad Ali",
+          "role": "Business Owner"
+        }
+      },
+      "seo": {
+        "badgeLabel": "SEO optimizatsiyasi",
+        "title": "SEO optimizatsiyasi",
+        "description": "Saytingizni Google qidiruv tizimida yuqori o'rinlarga olib chiqish, organik trafikni oshirish va yangi mijozlarni jalb qilishga yordam beramiz.",
+        "tags": [
+          "SEO Audit",
+          "Kalit so'zlar tahlili",
+          "On-page SEO",
+          "Technical SEO",
+          "Kontent optimizatsiyasi",
+          "Monitoring va hisobot"
+        ],
+        "testimonial": {
+          "quote": "SEO ishlari natijasida saytdagi organik tashriflar va murojaatlar sezilarli oshdi.",
+          "name": "Dilshod Rahimov",
+          "role": "Marketing Manager"
+        }
+      }
+    }
+  },
+  "NextSection": {
+    "text": "Har bir muvaffaqiyatli biznes kuchli texnologik yechimlardan boshlanadi."
+  },
+  "SecondSection": {
+    "heading1": "Biz bilan ishlash sizning",
+    "headingHighlight": "biznesingizni",
+    "heading2": "qanday o'zgartiradi?",
+    "before": {
+      "label": "Oldin",
+      "title": "Biznesingizni eskirgan texnologiyalar cheklayaptimi?",
+      "items": [
+        "Qo'lda bajariladigan ortiqcha ishlar.",
+        "Past samaradorlik va vaqt yo'qotilishi.",
+        "Zamonaviy raqamli yechimlarning yetishmasligi.",
+        "Raqobatchilar ortidan quvishga majbur bo'lish."
+      ]
+    },
+    "after": {
+      "label": "Keyin",
+      "title": "Kelajak uchun yaratilgan IT yechimlar",
+      "items": [
+        "Biznesingizga mos veb va mobil dasturlar.",
+        "Sun'iy intellekt asosidagi avtomatlashtirish.",
+        "Kuchli xavfsizlik va bulutli infratuzilma.",
+        "SEO va Telegram botlar orqali ko'proq mijozlar."
+      ]
+    }
+  },
+  "ProcessSection": {
+    "headingBold": "Ko'plab kompaniyalar",
+    "headingLight": "loyihalarni ortiqcha jarayonlar bilan murakkablashtiradi.",
+    "subtext": "Biz esa har bir bosqichni soddalashtirib, g'oyangizni qisqa muddat ichida ishonchli va sifatli raqamli mahsulotga aylantiramiz.",
+    "stepLabel": "Bosqich",
+    "phases": [
+      {
+        "label": "Tahlil",
+        "title": "Talablarni tahlil qilish va rejalashtirish",
+        "description": "Har bir loyiha biznesingizni chuqur o'rganishdan boshlanadi. Maqsadlaringiz, foydalanuvchilar ehtiyojlari va texnik talablarni tahlil qilib, aniq yo'l xaritasi hamda loyiha rejasini ishlab chiqamiz.",
+        "images": "/Requriment-Analysis.png"
+      },
+      {
+        "label": "Dizayn",
+        "title": "UI/UX dizayn va prototiplash",
+        "description": "Foydalanuvchi uchun qulay, zamonaviy va estetik interfeys yaratamiz. Dizayn va interaktiv prototip tayyorlanib, barcha tafsilotlar siz bilan kelishilgandan so'ng ishlab chiqish bosqichiga o'tiladi.",
+        "images": "/uiux.png"
+      },
+      {
+        "label": "Dasturlash",
+        "title": "Dasturlash va sifat nazorati",
+        "description": "Tasdiqlangan dizayn asosida loyiha zamonaviy texnologiyalar yordamida ishlab chiqiladi. Har bir modul funksionallik, xavfsizlik, tezkorlik va barqarorlik bo'yicha sinovdan o'tkazilib, yuqori sifat ta'minlanadi.",
+        "images": "/code.png"
+      },
+      {
+        "label": "Ishga tushirish",
+        "title": "Ishga tushirish va qo'llab-quvvatlash",
+        "description": "Loyiha muvaffaqiyatli ishga tushirilgach, texnik yordam, tizim monitoringi, yangilanishlar va yangi funksiyalarni joriy etish orqali mahsulotingizning barqaror ishlashini doimiy ravishda qo'llab-quvvatlaymiz.",
+        "images": "/support.jpg"
+      }
+    ]
+  },
+  "TeamSection": {
+    "heading": "Bizning professional",
+    "headingHighlight": "jamoamiz bilan tanishing.",
+    "aboutHeading": "Biz haqimizda",
+    "aboutText": "Biz zamonaviy web-saytlar, mobil ilovalar va biznes jarayonlarini avtomatlashtiruvchi dasturiy yechimlarni ishlab chiqishga ixtisoslashgan IT kompaniyamiz. Har bir loyihaga individual yondashib, mijozlarimizning maqsad va ehtiyojlarini chuqur tahlil qilamiz. Bizning asosiy maqsadimiz — biznesingizni rivojlantirishga xizmat qiladigan tezkor, xavfsiz va sifatli raqamli mahsulotlarni yaratish.",
+    "joinButton": "Bizga qo'shiling",
+    "emailLabel": "Email",
+    "members": [
+      {
+        "id": 1,
+        "name": "Anarqulov Farxod",
+        "role": "Chief Technology Officer",
+        "bio": "Texnik direktor (CTO). U kompaniyaning texnologik rivojlanish strategiyasini belgilash, dasturiy loyihalarni boshqarish va texnik jamoa faoliyatini muvofiqlashtirish uchun mas'ul. Zamonaviy texnologiyalar, tizim arxitekturasi va dasturiy ta'minotni ishlab chiqish jarayonlari bo‘yicha chuqur tajribaga ega. Loyihalarning sifatli, xavfsiz va o‘z vaqtida amalga oshirilishini ta'minlab, innovatsion yechimlar orqali kompaniyaning texnologik salohiyatini rivojlantirishga hissa qo‘shadi.",
+        "email": "info@izisol.uz"
+      },
+      {
+        "id": 2,
+        "name": "Mirzoyev Shaxzod",
+        "role": "DevOps",
+        "bio": "DevOps muhandisi. U dasturiy ta'minotni ishlab chiqish va ekspluatatsiya jarayonlarini avtomatlashtirish hamda optimallashtirishga ixtisoslashgan. Docker, Kubernetes, CI/CD, Linux, Nginx va bulutli infratuzilmalar bilan ishlash tajribasiga ega. Tizimlarning barqarorligi, xavfsizligi va yuqori unumdorligini ta'minlash orqali dasturiy mahsulotlarni tezkor va ishonchli tarzda ishga tushirish jarayonini qo‘llab-quvvatlaydi.",
+        "email": "info@izisol.uz"
+      },
+      {
+        "id": 3,
+        "name": "Yangiboyev Sardor",
+        "role": "System administration",
+        "bio": "System Administrator. U serverlar, tarmoqlar va IT infratuzilmasini boshqarish hamda qo‘llab-quvvatlash bo‘yicha ixtisoslashgan. Linux va Windows serverlari, virtualizatsiya, xavfsizlik, zaxira nusxalash (backup), monitoring va tizimlarni optimallashtirish yo‘nalishlarida tajribaga ega. Tizimlarning uzluksiz, xavfsiz va barqaror ishlashini ta’minlashga doimo e’tibor qaratadi.",
+        "email": "info@izisol.uz"
+      },
+      {
+        "id": 4,
+        "name": "Rahimov Umijon",
+        "role": "web and mobile developer",
+        "bio": "Web va Mobile dasturchi. U Node.js, NestJS, Next.js, React hamda React Native (Expo, Expo Router) texnologiyalari yordamida zamonaviy veb va mobil ilovalarni ishlab chiqishga ixtisoslashgan. Loyihalarda masshtablanuvchi arxitektura, yuqori unumdorlik va qulay foydalanuvchi tajribasini ta'minlashga alohida e'tibor qaratadi. Zamonaviy texnologiyalar va toza kod tamoyillari asosida ishonchli hamda samarali raqamli yechimlarni yaratadi.",
+        "email": "info@izisol.uz"
+      },
+      {
+        "id": 5,
+        "name": "Ro'ziyev Sanjar",
+        "role": "fullstack developer",
+        "bio": "Asosiy texnologiyalari Laravel, PHP, MySQL, PostgreSql, Redis, Docker, HTML CSS va REST API. Telegram botlar, CRM tizimlari va logistika sohasidagi web-ilovalarni ishlab chiqish tajribasiga ega. Toza kod yozish, backend arxitekturasi va yangi texnologiyalarni tez o'zlashtirishga e'tibor qaratadi.",
+        "email": "info@izisol.uz"
+      },
+      {
+        "id": 6,
+        "name": "Abdukabir Qurbanaliyev",
+        "role": "fullstack developer",
+        "bio": "PHP va Laravel texnologiyalariga ixtisoslashgan Full-Stack dasturchi. U zamonaviy, xavfsiz va yuqori unumdor veb-ilovalar, REST API, CRM tizimlari hamda boshqaruv panellarini ishlab chiqishga ixtisoslashgan. Loyihalarda toza kod yozish, optimallashtirilgan yechimlar yaratish va foydalanuvchi tajribasini yaxshilashga alohida e'tibor qaratadi.",
+        "email": "info@izisol.uz"
+      }
+    ]
+  },
+  "PaceSection": {
+    "headingBold": "Nima uchun bizni",
+    "headingLight": "tanlashadi?",
+    "features": [
+      {
+        "label": "Tezkor ishlab chiqish",
+        "description": "Har bir loyiha puxta rejalashtirilgan ish jarayoni asosida amalga oshiriladi. Zamonaviy texnologiyalar va samarali boshqaruv usullaridan foydalanib, belgilangan muddatlarga qat'iy amal qilamiz. Maqsadimiz — sifatdan voz kechmagan holda mahsulotingizni imkon qadar tezroq ishga tushirish va biznesingiz uchun real qiymat yaratish."
+      },
+      {
+        "label": "Sifat va xavfsizlik",
+        "description": "Biz ishlab chiqayotgan har bir dasturiy mahsulot funksionallik, unumdorlik va xavfsizlik nuqtai nazaridan sinchkovlik bilan tekshiriladi. Kod sifati, tizim barqarorligi va foydalanuvchi ma'lumotlarining himoyasi bizning ustuvor vazifalarimizdan biri bo'lib, mahsulotni ishonch bilan foydalanishga topshiramiz."
+      },
+      {
+        "label": "Uzoq muddatli hamkorlik",
+        "description": "Biz uchun loyiha topshirilishi hamkorlikning yakuni emas, balki yangi bosqichning boshlanishidir. Texnik qo'llab-quvvatlash, tizimni muntazam yangilash, yangi funksiyalarni joriy etish va yuzaga kelishi mumkin bo'lgan muammolarni tezkor bartaraf etish orqali mahsulotingizning doimiy rivojlanishiga yordam beramiz."
+      }
+    ]
+  },
+  "StatsSection": {
+    "stats": [
+      {
+        "value": "232",
+        "suffix": "ta",
+        "description": "Mijozlar"
+      },
+      {
+        "value": "521",
+        "suffix": "ta",
+        "description": "Loyihalar"
+      },
+      {
+        "value": "1453",
+        "suffix": "ta",
+        "description": "Qo'llab-quvvatlash soatlari"
+      },
+      {
+        "value": "10",
+        "suffix": "ta",
+        "description": "Xodimlar"
+      }
+    ]
+  },
+  "Footer": {
+    "newsletterHeading": "Yangiliklarimizga",
+    "newsletterHeadingLine2": "obuna bo'ling.",
+    "emailPlaceholder": "Email",
+    "subscribeButton": "Obuna bo'lish",
+    "followUs": "Bizni kuzatib boring",
+    "navigation": "Navigatsiya",
+    "navLinks": [
+      "Bosh sahifa",
+      "Xizmatlar",
+      "Biz haqimizda"
+    ],
+    "phone": "+99894 744 14 15",
+    "email": "info@izisol.uz",
+    "address": "5-qavat, E kirish, NestOne Botir Zakirov ko'chasi 1 A/1, Toshkent"
+  },
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "description": "Hech qanday ortiqcha taqdimot yoki bosim yo'q. Bizga loyihangiz haqida qisqacha ma'lumot bering, sizga qanday yordam bera olishimizni ko'rsatamiz.",
+    "name": "F.I.Sh",
+    "namePlaceholder": "To'liq ismingiz",
+    "email": "Email",
+    "emailPlaceholder": "name@company.com",
+    "services": "Qaysi xizmatlar sizni qiziqtiradi?",
+    "mobileDevelopment": "Mobil ilovalar",
+    "webDevelopment": "Veb dasturlash",
+    "telegramBot": "Telegram bot",
+    "seo": "SEO optimizatsiyasi",
+    "message": "Loyihangiz yoki talablaringiz haqida yozing",
+    "messagePlaceholder": "Loyihangiz haqida qisqacha ma'lumot kiriting...",
+    "agreement": "Arizani yuborish orqali xizmat ko'rsatish shartlari va maxfiylik siyosatimizga rozilik bildirasiz.",
+    "response": "So'rovingizni qabul qilganimizdan so'ng, 24 soat ichida siz bilan bog'lanamiz.",
+    "send": "So'rov yuborish"
+  }
+}
