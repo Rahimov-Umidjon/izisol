@@ -56,10 +56,12 @@ export default function Home() {
 
   const scrollToSection = (id: string) => {
     const el = document.getElementById(id);
-    // console.log(el)
+
     if (!el) return;
     setMobileMenuOpen(false);
     setTime(true)
+
+    console.log(el)
 
     if (id === 'services' || id === 'contact') {
       if (lenis) {
@@ -184,6 +186,7 @@ export default function Home() {
   const sectionsRef = useRef<HTMLElement[]>([]);
   const pathname = usePathname();
   const servicesSectionRef = useRef<HTMLElement[]>([])
+  const navRef = useRef<HTMLDivElement>(null); // YANGI - tashqi bosishni aniqlash uchun
 
   useEffect(() => {
     const sections = sectionsRef.current;
@@ -256,12 +259,49 @@ export default function Home() {
     }
   };
 
+  // YANGI: mobile menu ochilganda orqa fon scroll bo'lmasligi + tashqariga bosilganda yopilishi
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      // orqa fon scrollini to'xtatish
+      lenis?.stop();
+      document.body.style.overflow = "hidden";
+    } else {
+      lenis?.start();
+      document.body.style.overflow = "";
+    }
+
+    const handleClickOutside = (event: MouseEvent | TouchEvent) => {
+      if (navRef.current && !navRef.current.contains(event.target as Node)) {
+        setMobileMenuOpen(false);
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
+  }, [mobileMenuOpen, lenis]);
+
+  // Komponent unmount bo'lganda overflow qulfini albatta tozalash
+  useEffect(() => {
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, []);
+
 
 
 
   return (
     <main className="bg-[#FCFCFA] ">
-      <nav className="fixed z-50 top-5 left-5 right-5 sm:top-10 sm:left-12 sm:right-12 lg:left-10 lg:right-10 flex items-center justify-between gap-4">
+      <nav
+        ref={navRef}
+        className="fixed z-50 top-5 left-5 right-5 sm:top-10 sm:left-12 sm:right-12 lg:left-10 lg:right-10 flex items-center justify-between gap-4"
+      >
         <div
           onMouseEnter={() => setOpen(true)}
           onMouseLeave={() => {
@@ -310,7 +350,10 @@ export default function Home() {
           {/* Mobile burger button */}
           <button
             className="md:hidden grid h-9 w-9 place-items-center rounded-full text-neutral-800 cursor-pointer"
-            onClick={() => setMobileMenuOpen((prev) => !prev)}
+            onClick={() => {
+              setMobileMenuOpen((prev) => !prev)
+              setOpen((prev) => !prev)
+            }}
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
@@ -330,7 +373,10 @@ export default function Home() {
               {menu.map((item) => (
                 <button
                   key={item.label}
-                  onClick={() => scrollToSection(item.id)}
+                  onClick={() => {
+                    scrollToSection(item.id)
+                    setOpen(false);
+                  }}
                   className="w-full rounded-full px-5 py-3 text-left text-neutral-800 hover:bg-emerald-500 hover:text-white transition-colors duration-200"
                 >
                   {item.label}
