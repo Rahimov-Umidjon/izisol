@@ -14,8 +14,8 @@ import StatsSection from "@/components/StatsSection";
 import Footer from "@/components/Footer";
 import { useTranslations } from "next-intl";
 import LangSwitcher from "@/components/LangSwitcher";
-import { usePathname } from "next/navigation";
-import { useLenis } from "lenis/react";
+import { usePathname } from "next/navigation"; 
+import { useLenis } from "@/components/SmoothScroll";
 
 export type ServiceItem = {
   index: string;
@@ -272,8 +272,7 @@ export default function Home() {
 
     const handleClickOutside = (event: MouseEvent | TouchEvent) => {
       if (navRef.current && !navRef.current.contains(event.target as Node)) {
-        setMobileMenuOpen(false);
-        setOpen(false);
+        setMobileMenuOpen(false); 
       }
     };
 
@@ -352,7 +351,7 @@ export default function Home() {
             className="md:hidden grid h-9 w-9 place-items-center rounded-full text-neutral-800 cursor-pointer"
             onClick={() => {
               setMobileMenuOpen((prev) => !prev)
-              setOpen((prev) => !prev)
+              // setOpen((prev) => !prev)
             }}
             aria-label="Toggle menu"
           >
@@ -374,8 +373,7 @@ export default function Home() {
                 <button
                   key={item.label}
                   onClick={() => {
-                    scrollToSection(item.id)
-                    setOpen(false);
+                    scrollToSection(item.id) 
                   }}
                   className="w-full rounded-full px-5 py-3 text-left text-neutral-800 hover:bg-emerald-500 hover:text-white transition-colors duration-200"
                 >
